@@ -5,3 +5,54 @@ header {
     background: url(/assets/banners/descarga.jpeg) !important;
     padding:10px 0px;
 }
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+   
+  }
+  @media only screen and (min-width: 1260px) {
+    .carousel{
+        background-color: white !important;
+    }   
+    .carousel-inner  {
+    padding: 0 50px;
+    height: 700px;
+  }
+  .w3-card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80% !important;
+    height: 280px;
+  }
+}
+header {
+	background: url('/assets/banners/descarga.jpeg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient( 135deg, #7106a7c2 5%, #0e050fc9 100%);
+	
+}
+.w3-card{
+    background-color: gainsboro;
+}
+.w3-light-grey{
+    background-image: linear-gradient( 135deg, #3eebebc2 5%, #32cfc77a 100%);
+	color: white !important;
+}
+.w3-twothird{
+    padding-bottom: 20px !important;
+}
