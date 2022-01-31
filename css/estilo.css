@@ -56,3 +56,7 @@ header .overlay{
 .w3-twothird{
     padding-bottom: 20px !important;
 }
+
+.w3-twothird img{
+  max-width: 600px;
+}
