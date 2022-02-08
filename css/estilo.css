@@ -31,6 +31,11 @@ header {
     height: 550px;
    
   }
+  .fondoserv{
+    object-fit: cover;
+    max-height: 650px;
+    width: 100%;
+  }
 }
 header {
 	background: url('/assets/banners/descarga.jpeg');
@@ -103,9 +108,42 @@ header {
     border-radius: 20px;
    
     }
+    
+    .textcontain{
+      position: relative;
+    display: flex;
+    text-align: center;
+    }
+    .fondo2{
+      position:absolute;
+      top: 23%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    border-radius: 50%;
+opacity: 0.5;
+    }
+
+    .textocentrado2{
+      position: absolute;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      top: 70%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+    }
+    .textocentrado2 h3 {
+      font-size: 20px;
+    }
     @media (max-width: 820px) { 
     .sibling-fade{
       display: none;
+    }
+    .fondoserv{
+      object-fit: cover;
+      height: 850px;
+      width: 100%;
     }
     .ocultar{
       display: none;
@@ -117,7 +155,7 @@ header {
     }
     .fondo2{
       position:absolute;
-      top: 50%;
+      top: 14%;
       left: 50%;
       transform: translate(-50%, -50%);
     border-radius: 50%;
@@ -127,7 +165,7 @@ opacity: 0.5;
       position: absolute;
       color: darkseagreen;
       font-size: 35px;
-      top: 15%;
+      top: 29%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
@@ -145,34 +183,18 @@ opacity: 0.5;
       color: white;
       font-size: 18px;
       font-weight: bold;
-      top: 30%;
-      left: 75%;
-      transform: translate(-50%, -50%);
-    }
-    .textocentrado3{
-      position: absolute;
-      color:  white;
-      font-size: 18px;
-      font-weight: bold;
-      top: 30%;
-      left: 20%;
-      transform: translate(-50%, -50%);
-    }
-    .textocentrado4{
-      position: absolute;
-      color:  white;
-      font-size: 18px;
-      font-weight: bold;
-      top: 80%;
+      top: 60%;
       left: 50%;
+      width: 100%;
       transform: translate(-50%, -50%);
     }
+  
     .textocentrado5{
       position: absolute;
       color: darkseagreen;
       font-size: 18px;
       font-weight: bold;
-      top: 71%;
+      top: 95%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
