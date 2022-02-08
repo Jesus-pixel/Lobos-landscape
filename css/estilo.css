@@ -103,7 +103,81 @@ header {
     border-radius: 20px;
    
     }
-
+    @media (max-width: 820px) { 
+    .sibling-fade{
+      display: none;
+    }
+    .ocultar{
+      display: none;
+    }
+    .textcontain{
+      position: relative;
+    display: flex;
+    text-align: center;
+    }
+    .fondo2{
+      position:absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    border-radius: 50%;
+opacity: 0.5;
+    }
+    .textocentrado{
+      position: absolute;
+      color: darkseagreen;
+      font-size: 35px;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .textocentrado1{
+      position: absolute;
+      color:  white;
+      font-size: 18px;
+      font-weight: bold;
+      top: 25%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .textocentrado2{
+      position: absolute;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      top: 30%;
+      left: 75%;
+      transform: translate(-50%, -50%);
+    }
+    .textocentrado3{
+      position: absolute;
+      color:  white;
+      font-size: 18px;
+      font-weight: bold;
+      top: 30%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+    }
+    .textocentrado4{
+      position: absolute;
+      color:  white;
+      font-size: 18px;
+      font-weight: bold;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .textocentrado5{
+      position: absolute;
+      color: darkseagreen;
+      font-size: 18px;
+      font-weight: bold;
+      top: 71%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+         
     @media (min-width: 1260px) { 
       h1 {
         position: absolute;
@@ -124,6 +198,9 @@ header {
        p{
          font-size: 14px !important;
        }
+       .mobil{
+         display: none;
+        }
     }
     .bg-secondary{
       background: rgba(0, 0, 0, 0.7) !important;
