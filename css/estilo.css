@@ -122,7 +122,14 @@ header {
     border-radius: 50%;
 opacity: 0.5;
     }
-
+    .textocentrado{
+      position: absolute;
+      color: aqua;
+      font-size: 50px;
+      top: 46%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
     .textocentrado2{
       position: absolute;
       color: white;
@@ -198,6 +205,9 @@ opacity: 0.5;
       left: 50%;
       transform: translate(-50%, -50%);
     }
+    .w3-third{
+      width: 33.33% !important;
+    }
   }
          
     @media (min-width: 1260px) { 
@@ -223,17 +233,18 @@ opacity: 0.5;
        .mobil{
          display: none;
         }
+        .efect:hover{
+          transform: scale(1.25);
+        transition: all .5s;
+        }
+        .efect{
+          transition: all .5s;
+        }
     }
     .bg-secondary{
       background: rgba(0, 0, 0, 0.7) !important;
     }
-    .efect:hover{
-      transform: scale(1.25);
-    transition: all .5s;
-    }
-    .efect{
-      transition: all .5s;
-    }
+    
     /* SIBLING FADE: fade out siblings around a hovered item */
 
 .sibling-fade { visibility: hidden; }
@@ -253,4 +264,9 @@ opacity: 0.5;
 
 .color{
   color:blue;
+} 
+.face{
+  filter: invert(0%) sepia(5%) saturate(7494%) hue-rotate(20deg) brightness(106%) contrast(96%);
 }
+
+
