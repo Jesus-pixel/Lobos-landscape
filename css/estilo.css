@@ -151,6 +151,7 @@ opacity: 0.5;
       object-fit: cover;
       height: 850px;
       width: 100%;
+      opacity: 0.8;
     }
     .ocultar{
       display: none;
@@ -166,15 +167,16 @@ opacity: 0.5;
       left: 50%;
       transform: translate(-50%, -50%);
     border-radius: 50%;
-opacity: 0.5;
+opacity: 0.9;
     }
     .textocentrado{
       position: absolute;
-      color: darkseagreen;
+      color: black;
       font-size: 35px;
       top: 29%;
       left: 50%;
       transform: translate(-50%, -50%);
+      text-shadow: 8px 8px 8px cyan;
     }
     .textocentrado1{
       position: absolute;
@@ -194,19 +196,25 @@ opacity: 0.5;
       left: 50%;
       width: 100%;
       transform: translate(-50%, -50%);
+      text-shadow: 2px 2px 2px red;
     }
   
     .textocentrado5{
       position: absolute;
-      color: darkseagreen;
-      font-size: 18px;
+      color: black;
+      font-size: 36px;
       font-weight: bold;
       top: 95%;
       left: 50%;
+      width: 100%;
       transform: translate(-50%, -50%);
+      text-shadow: 5px 5px 5px cyan;
     }
     .w3-third{
       width: 33.33% !important;
+    }
+    .w3-card img {
+      height: 150px;
     }
   }
          
