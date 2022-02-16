@@ -228,6 +228,9 @@ text-align: center;
       transform: translate(-50%, -50%);
       text-shadow: 2px 2px 2px red;
     }
+    p{
+      font-size: medium;
+    }
   
     /* .textocentrado5{
       color: black;
