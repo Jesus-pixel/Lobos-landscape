@@ -44,7 +44,12 @@ header {
 	overflow: hidden;
 /* 	border-radius: 0 0 85% 85% / 30%; */
 }
-
+.slogan{
+  font-size: x-large;
+}
+.textocolor{
+  text-shadow: 8px 8px 8px black;
+}
 .w3-card{
     background-color: gainsboro;
 }
