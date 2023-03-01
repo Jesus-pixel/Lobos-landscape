@@ -33,7 +33,7 @@ body{
   }
 }
 header {
-	background-color: currentColor;
+	background-color: goldenrod;
 	text-align: center;
 	width: 100%;
   max-height: 300px;
@@ -172,7 +172,35 @@ text-align: center;
       width: 100%;
       text-shadow: 5px 5px 5px cyan;
     }
+    @media screen and (min-width: 1919px) {
+      .addName{
+        position: absolute;
+        top: 75%;
+        left: 45%;
+       }
+     }
+
+   .imagenfondo{
+    position: relative;
+   }
+   .addName{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+   }
+   .homeIm{
+    font-size: 25px !important;
+    font-weight:bold;
+    color: black;
+    line-height:25px;
+   }
+  
     @media (max-width: 820px) { 
+      .addName{
+        position: absolute;
+        top: 73%;
+        left: 23%;
+       }
       .imagencel{
         width: 100% !important;
       }
@@ -271,11 +299,15 @@ text-align: center;
          display: none;
         }
         .efect:hover{
-          transform: scale(1.25);
+          transform: scale(1.1);
         transition: all .5s;
+        border-radius: 10%;
+        border: solid 1px #eb9d0cd6 ;
         }
         .efect{
           transition: all .5s;
+          border-radius: 5%;
+          border: solid 1px transparent ;
         }
     }
     .bg-secondary{
